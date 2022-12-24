@@ -1,4 +1,5 @@
 
+
 // funções 
 
 let corSite = 'azul';
@@ -30,26 +31,6 @@ function multiplicarPorDois(valor){
 let resultado = multiplicarPorDois(5);
 console.log(resultado);
 
-
-//| v OPERADORES v |\\
-
-//       Operadores Aritiméticos
-//           +  -  *  /  ** 
-let salario = 1000;
-console.log(salario + salario);
-console.log(salario * 3);
-console.log(salario - salario);
-console.log(salario / 2);
-console.log(salario ** 2);
-// ++  --
-let idade = 19;
-console.log(++idade); // os operadores ++ deve ser colocado antes
-console.log(--idade);
-
-//    Operadores de Atribuição
-let valor= (500);
-valor += valor;  // (valor = valor + valor)
-console.log(valor);
 
 
 
