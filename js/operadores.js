@@ -72,6 +72,12 @@ console.log('Recusado: ', motoristaRecusado);
 
 //Truthy: [Tudos os tipos que não são os tipos acima ^]
 
+let corPersonalizada = 'vermeho';
+let corPadrao = 'azul';
+let corPerfil = corPersonalizada || corPadrao;
+console.log(corPerfil); // irá imprimir o primeiro redultadp trufy encontrado
+
+
 
 
 
