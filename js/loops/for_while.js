@@ -26,7 +26,18 @@ while (x < 5) {
 
 // do .. while
 
-let j = 8;
+let j = 0;
 do {
+    console.log(j);
+    j++;
+}
     
-} while (condition);
+ while (j < 8);
+
+
+
+
+
+
+
+
