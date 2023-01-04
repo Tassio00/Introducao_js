@@ -3,8 +3,6 @@
 
 mostrarPrimos(11);
 
-
-
 function mostrarPrimos(number) {
     for(let i = 2; i <= number; i++){
         let ehPrimo = true;

@@ -6,7 +6,6 @@ function mostraAsteriscos(n) {
     let aster = '';
     for(let i = 0; i < n; i++){
         aster += '*';
-        console.log(aster);
-        
+        console.log(aster); 
     }
 }
