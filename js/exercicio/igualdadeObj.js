@@ -18,7 +18,5 @@ function comparaLocalNaMemoria(x, y){
     return x === y;
 }
 
-
-
 console.log(iguais(local1, local2));
 console.log(comparaLocalNaMemoria(local1, local2));

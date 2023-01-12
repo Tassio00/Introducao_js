@@ -30,13 +30,23 @@
     <script type="text/javascript" src="js/date/date.js"></script>
     <script type="text/javascript" src="js/exercicio/endereco.js"></script>
     <script type="text/javascript" src="js/exercicio/igualdadeObj.js"></script>
+    <script type="text/javascript" src="js/prompt/maiorIdade.js"></script>
+    <script type="text/javascript" src="js/checarLista_ProjFinal/partyList.js"></script>
 
 
     <title>Teste Js</title>
    
 </head>
 <body>
-    <h1>Página Teste</h1>
+    <h1>Welcome to the party</h1>
+    <hr>
+    <p><strong>We need to check if you are in the list</strong></p>
+    <p>What is your name? <input type="name" id="name" placeholder="Type here."></p>
+    <p>Ticket code: <input type="code" id="code" placeholder="Type here."></p>
+    <button onclick="checkInvited()" class="btn" id="btn" >Enter</button>
+    </p> <hr>
+    <label for="" id="permissionStatus">Loading...</label>
+
     
 </body>
 </html>
